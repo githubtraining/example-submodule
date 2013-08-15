@@ -15,7 +15,7 @@ Encapsulate initialization of application.
         alert(msg);
     }
     var shutdown = function(){
-        alert("Goodbye");
+        say("Goodbye");
     }
 
     startup();
