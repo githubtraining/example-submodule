@@ -13,6 +13,8 @@ Encapsulate initialization of application.
     }
     var say = function(msg){
         alert(msg);
+        return msg;
+    }
     var sayTime = function(){
         var now = new Date(),
             pre = "The time is now " + now.Hours() + ":" + now.getMinutes;
